@@ -1,0 +1,32 @@
+.tab-name {
+  background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: none;
+  color: #ffffff;
+  font-size: 20px;
+  outline: none;
+  min-width: 60px;
+  height: 40px;
+  margin-right: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-item {
+  padding: 0px;
+  align-self: center;
+}
+
+.active-id {
+  border-bottom: 1px solid#fec653;
+  color: #fec653;
+}
+
+@media screen and (max-width: 768px) {
+  .tab-name {
+    font-size: 20px;
+  }
+}
